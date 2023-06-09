@@ -5,7 +5,7 @@ FROM docker:23.0.2-cli as docker
 FROM caddy:2.6.4-alpine as caddy
 
 # From https://github.com/docker-library/php/blob/master/8.1/alpine3.17/fpm/Dockerfile
-FROM php:8.1.17-fpm-alpine3.17
+FROM php:8.1.20-fpm-alpine3.17
 
 RUN set -ex; \
     apk add --no-cache shadow; \
