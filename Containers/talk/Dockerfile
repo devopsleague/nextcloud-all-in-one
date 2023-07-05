@@ -1,5 +1,5 @@
 FROM nats:2.9.15-scratch as nats
-FROM strukturag/nextcloud-spreed-signaling:1.1.2 as signaling
+FROM strukturag/nextcloud-spreed-signaling:1.1.3 as signaling
 FROM alpine:3.17.3
 USER root
 
