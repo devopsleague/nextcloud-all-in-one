@@ -1,4 +1,4 @@
-FROM nats:2.9.19-scratch as nats
+FROM nats:2.9.21-scratch as nats
 FROM strukturag/nextcloud-spreed-signaling:1.1.3 as signaling
 FROM coturn/coturn:4.6.2-alpine3.18
 USER root
