@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Turnstyle
         uses: softprops/turnstyle@9d692f15fa9f84928799bccac2dba6565e024bdf # v2
